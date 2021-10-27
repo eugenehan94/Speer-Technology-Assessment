@@ -1,0 +1,44 @@
+.caller-detail-title {
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 1rem 0;
+  letter-spacing: 0.2rem;
+}
+.caller-content-wrapper {
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.caller-avatar {
+  font-size: 6rem;
+  margin-bottom: 1rem;
+}
+.caller-content-wrapper :nth-child(2),
+.caller-content-wrapper :nth-child(3) {
+  margin-bottom: 1rem;
+}
+.archive-button {
+  font-size: 1rem;
+  width: 80%;
+  background-color: #2ac420;
+  border: 1px solid #2ac420;
+}
+.archive-button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #1f8b17;
+  border: 1px solid #1f8b17;
+}
+
+.call-log-container {
+  display: flex;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  margin-top: 3rem;
+}
+.call-log-icon {
+  font-size: 3rem;
+  margin-right: 0.5rem;
+  color: green;
+}

@@ -1,0 +1,51 @@
+.caller-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+  background-color: rgb(221, 217, 217);
+}
+.caller-container:hover {
+  background-color: rgb(241, 241, 241);
+}
+.caller-links {
+  color: black;
+  text-decoration: none;
+}
+
+.caller-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.caller-icon-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1.5rem;
+  padding-left: 1rem;
+}
+.icon-outbound {
+  color: rgb(216, 0, 0);
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+}
+.icon-inbound {
+  color: rgb(15, 131, 15);
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+}
+.icon-phone {
+  font-size: 1.5rem;
+}
+.caller-info-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.caller-info-wrapper div p {
+  font-size: 1rem;
+  margin-bottom: 0.1rem;
+  letter-spacing: 0.1rem;
+}
